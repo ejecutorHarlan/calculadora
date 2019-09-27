@@ -70,3 +70,18 @@
   float: left;
 
 }
+
+#buttons ul li.button:hover{
+	background-position:0 -27px;
+	cursor:pointer;
+}
+
+#buttons ul li.button:active{
+	background-position:0 -54px;
+	cursor:pointer;
+}
+
+#calc-bottom {
+	height: 10px;
+	background: url(img/calc-bottom.png) no-repeat top center;
+}
